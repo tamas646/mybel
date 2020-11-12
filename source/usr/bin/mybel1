@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while [[ true ]]
+do
+	tput bel
+	sleep 1
+done

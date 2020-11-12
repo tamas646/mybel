@@ -1,0 +1,6 @@
+Package: mybel
+Version: 1.0.0
+Architecture: all
+Depends: bash,coreutils,ncurses-bin
+Maintainer: Pesti Tamás <ptamas2002@gmail.com>
+Description: Notification rings using the terminal bel.

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+while [[ true ]]
+do
+	tput bel
+	sleep 0.15
+	tput bel
+	sleep 0.15
+	tput bel
+	sleep 0.7
+done
