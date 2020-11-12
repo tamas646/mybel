@@ -17,7 +17,7 @@ And you will hear if the dd has finished. ;)
 - If you wish, you can install it from my apt repository too:
 
   ```sh
-  sudo echo "deb http://apt.ptamas.hu/ main" > /etc/apt/sources.list.d/apt.ptamas.list
+  sudo echo "deb http://apt.ptamas.hu/main/ ./" > /etc/apt/sources.list.d/apt.ptamas.list
   wget -O- https://apt.ptamas.hu/ptamas-pub.gpg |sudo apt-key add -
   apt update && apt install mybel
   ```
