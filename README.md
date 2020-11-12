@@ -3,7 +3,7 @@ Notification rings using the terminal bel.
 
 It's just a simple script to notify you on a busy day if a command has finished running.
 
-### Usage
+## Usage
 `<any command> ; <mybel[1-3]>`
 
 ### Example
