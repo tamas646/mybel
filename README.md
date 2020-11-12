@@ -12,7 +12,7 @@ It's just a simple script to notify you if a command has finished running.
 And you will hear if the dd has finished. ;)
 
 ## Installation
-- You can either [download](mybel_1.0.0_all.deb) and install the deb package or use the source code and setup it yourself.
+- You can either [download](https://github.com/tamas646/mybel/raw/main/mybel_1.0.0_all.deb) and install the deb package or use the source code and setup it yourself.
 
 - If you wish, you can install it from my apt repository too:
 
