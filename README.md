@@ -18,6 +18,6 @@ And you will hear if the dd has finished. ;)
 
   ```sh
   sudo echo "deb http://apt.ptamas.hu/main/ ./" > /etc/apt/sources.list.d/apt.ptamas.list
-  wget -O- https://apt.ptamas.hu/ptamas-pub.gpg |sudo apt-key add -
+  wget -qO - https://apt.ptamas.hu/ptamas-pub.gpg | sudo tee /etc/apt/trusted.gpg.d/ptamas-pub.gpg > /dev/null
   apt update && apt install mybel
   ```
